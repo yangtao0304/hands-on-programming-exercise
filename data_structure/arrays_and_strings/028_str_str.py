@@ -46,6 +46,46 @@ class Solution(object):
         '''
         kmp算法
         '''
-        # 待补充
+        
         # ref：http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html
-        pass
+
+        # ps: leetcode测试超时 = =、
+        
+        if not needle:
+            return 0
+
+        def get_partial_matching_value(p):
+            res = []
+            for i in range(len(p)):
+                sub_p = p[:i+1]
+                value = 0
+                for j in range(len(sub_p)):
+                    if sub_p[:j] == sub_p[-j:]:
+                        value = max(value, len(sub_p[:j]))
+                res.append(value)
+            return res
+
+        partial_matching_value = get_partial_matching_value(needle)
+
+        i = 0
+        j = 0
+        while i < len(haystack) and j < len(needle):
+            if haystack[i] == needle[j]:
+                i += 1
+                j += 1
+            elif j == 0:
+                i += 1
+            else:
+                # 已匹配字符数：j
+                j = partial_matching_value[j-1]
+        
+        if j==len(needle):
+            return i-j
+        return -1
+
+
+if __name__ == "__main__":
+    t = 'BBC ABCDAB ABCDABCDABDE'
+    p = 'ABCDABD'
+    s = Solution()
+    print(s.str_str_3(t,p))
