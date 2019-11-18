@@ -165,3 +165,36 @@ int main() {
     cout << s1.substr(6, 5) << endl;
 }
 ```
+
+## 4.1 双指针技巧1
+```
+void reverse(int *v, int N)
+{
+    int i = 0;
+    int j = N - 1;
+    while(i<j)
+    {
+        swap(v[i],v[j]);
+        i++;
+        j--;
+    }
+}
+```
+值得注意的是，这种技巧经常在排序数组中使用
+
+## 4.2 双指针技巧2
+```
+给定一个数组和一个值，原地删除该值的所有实例并返回新的长度
+int removeElement(vector<int>& nums, int val)
+{
+    int k = 0;
+    for(int i = 0; i < nums.size(); ++i)
+    {
+        if(nums[i]!=val){
+            nums[k++]=nums[i];
+        }
+    }
+    return k;
+}
+```
+同时有一个慢指针和一个快指针：解决这类问题的关键是***确定两个指针的移动策略***
