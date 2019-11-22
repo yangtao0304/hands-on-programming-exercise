@@ -1,5 +1,3 @@
-# [数组和字符串](https://leetcode-cn.com/explore/learn/card/array-and-string/)
-
 ## 1.1 数组中的操作
 
 ```
