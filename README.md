@@ -13,3 +13,4 @@
 
 ### [Queues and stacks](https://leetcode-cn.com/explore/learn/card/queue-stack/)
 * 2019/11/22: [346](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/346_moving_average.py)(easy), [622](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/622_my_circular_queue.py)(medium)
+* 2019/11/23: [200](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/200_num_islands.py)(medium), [286](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/286_walls_and_gates.py)(medium)
