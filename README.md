@@ -1,7 +1,7 @@
 # hands-on-programming-exercise
 ## leetcode-cn探索实现 [[link]](https://leetcode-cn.com)
 
-## [1. Data structure](https://leetcode-cn.com/explore/learn/)
+## [1. Data structures](https://leetcode-cn.com/explore/learn/)
 ### [1.1 Arrays and strings](https://leetcode-cn.com/explore/learn/card/array-and-string/)
 
 * 2019/11/15: [066](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/arrays_and_strings/066_plus_one.py)(easy), [724](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/arrays_and_strings/724_pivot_index.py)(easy), [747](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/arrays_and_strings/747_dominant_index.py)(easy)
@@ -19,3 +19,10 @@
 - To Be Supplemented: 279 动态规划解法
 * 2019/11/25: [20](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/020_is_valid.py)(easy), [155](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/155_min_stack.py)(easy), [739](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/739_daily_temperatures.py)(medium)
 - To Be Supplemented: 739 official解法
+
+
+## 2. Special Topics
+### [2.1 Machine learning 101](https://leetcode-cn.com/explore/orignial/card/machine-learning-101/)
+- [material](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/special_topic/machine_learning_101/README.md)
+
+## 3. [Interview Questions](https://leetcode-cn.com/explore/interview/)
