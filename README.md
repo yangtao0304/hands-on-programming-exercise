@@ -17,8 +17,8 @@
 * 2019/11/23: [200](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/200_num_islands.py)(medium), [286](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/286_walls_and_gates.py)(medium)
 * 2019/11/25: [279](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/279_num_squares.py)(medium), [752](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/752_open_lock.py)(medium)
 - To Be Supplemented: 279 动态规划解法
-* 2019/11/25: [20](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/020_is_valid.py)(easy), [155](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/155_min_stack.py)(easy), [739](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/739_daily_temperatures.py)(medium)
-- To Be Supplemented: 739 official解法
+* 2019/11/25: [20](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/020_is_valid.py)(easy), [150](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/150_eval_RPN.py)(medium), [155](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/155_min_stack.py)(easy), [739](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/739_daily_temperatures.py)(medium)
+- TODO: 739 official解法, 将中序表达式转换为逆波兰表达式
 
 
 ## 2. Special Topics
