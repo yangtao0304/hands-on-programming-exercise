@@ -250,3 +250,77 @@ int BFS(Node root, Node target) {
 
 1. 你完全确定没有循环，例如，在树遍历中
 2. 你确实希望多次将结点添加到队列中
+
+## 4.1 栈：后入先出的数据结构
+栈的实现比队列容易。动态数组足以实现堆栈结构
+```
+#include <iostream>
+
+class MyStack {
+    private:
+        vector<int> data;               // store elements
+    public:
+        /** Insert an element into the stack. */
+        void push(int x) {
+            data.push_back(x);
+        }
+        /** Checks whether the queue is empty or not. */
+        bool isEmpty() {
+            return data.empty();
+        }
+        /** Get the top item from the queue. */
+        int top() {
+            return data.back();
+        }
+        /** Delete an element from the queue. Return true if the operation is successful. */
+        bool pop() {
+            if (isEmpty()) {
+                return false;
+            }
+            data.pop_back();
+            return true;
+        }
+};
+
+int main() {
+    MyStack s;
+    s.push(1);
+    s.push(2);
+    s.push(3);
+    for (int i = 0; i < 4; ++i) {
+        if (!s.isEmpty()) {
+            cout << s.top() << endl;
+        }
+        cout << (s.pop() ? "true" : "false") << endl;
+    }
+}
+```
+
+## 4.2 栈-用法
+知道如何使用两个最重要的操作：***入栈*** 和 ***出栈***
+
+除此之外，需要能够从栈中 ***获得顶部元素***
+```
+#include <iostream>
+
+int main() {
+    // 1. Initialize a stack.
+    stack<int> s;
+    // 2. Push new element.
+    s.push(5);
+    s.push(13);
+    s.push(8);
+    s.push(6);
+    // 3. Check if stack is empty.
+    if (s.empty()) {
+        cout << "Stack is empty!" << endl;
+        return 0;
+    }
+    // 4. Pop an element.
+    s.pop();
+    // 5. Get the top element.
+    cout << "The top element is: " << s.top() << endl;
+    // 6. Get the size of the stack.
+    cout << "The size is: " << s.size() << endl;
+}
+```
