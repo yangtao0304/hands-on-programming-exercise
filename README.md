@@ -27,3 +27,6 @@
 - [material](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/special_topic/machine_learning_101/README.md)
 
 ## 3. [Interview Questions](https://leetcode-cn.com/explore/interview/)
+
+## HOT 100 [[link]](https://leetcode-cn.com/problemset/hot-100/)
+* 2019/12/23: [001](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/001_two_sum.py)(easy), [002](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/002_add_two_numbers.py)(medium), [003](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/003_length_of_longest_substring.py)(medium)
