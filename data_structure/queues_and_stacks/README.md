@@ -324,3 +324,37 @@ int main() {
     cout << "The size is: " << s.size() << endl;
 }
 ```
+
+## 5.1 栈和 DFS
+与 BFS 类似，***深度优先搜索(DFS)*** 也可用于查找从根结点到目标结点的路径
+
+DFS 中找到的第一条路径并不总是最短的路径
+
+我们首先将根结点推入到栈中；然后我们尝试第一个邻居 B 并将结点 B 推入到栈中；等等等等。当我们到达最深的结点 E 时，我们需要回溯。当我们回溯时，我们将从栈中弹出最深的结点，这实际上是推入到栈中的最后一个结点
+
+## 5.2 DFS 模版I
+模版 - 递归
+```
+/*
+ * Return true if there is a path from cur to target.
+ */
+ boolean DFS(Node cur, Node target, Set<Node> visited)
+ {
+     return true if cur is target;
+     for (next: each neighbor of cur){
+         if (next is not in visited){
+             add next to visited;
+             return true if DFS(next, target, visited) == true;
+         }
+     }
+ }
+ ```
+ * 当我们递归地实现 DFS 时，似乎不需要使用任何栈。但实际上，我们使用的是由系统提供的隐式栈，也称为***调用栈（Call Stack）***
+
+ * 栈的大小正好是 DFS 的深度。因此，在最坏的情况下，维护系统栈需要 O(h)，其中 h 是 DFS 的最大深度。
+ ***在计算空间复杂度时，永远不要忘记考虑系统栈***
+
+* 在上面的模板中，我们在找到第一条路径时停止。如果你想找到最短路径呢？
+
+    ***提示：再添加一个参数来指示你已经找到的最短路径***
+
