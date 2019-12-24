@@ -30,3 +30,5 @@
 
 ## HOT 100 [[link]](https://leetcode-cn.com/problemset/hot-100/)
 * 2019/12/23: [001](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/001_two_sum.py)(easy), [002](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/002_add_two_numbers.py)(medium), [003](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/003_length_of_longest_substring.py)(medium)
+* 2019/12/24: [005](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/005_longest_palindrome.py)(medium), [011](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/011_max_area.py)(medium), [015](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/015_three_sum.py)(medium), [017](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/017_letter_combinations.py)(medium), [019](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/019_remove_nth_from_end.py)(medium)
+- TODO: 最长公共字串，后缀数算法；补充005题(方法一)实现
