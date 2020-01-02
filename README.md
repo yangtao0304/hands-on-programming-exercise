@@ -1,5 +1,5 @@
 # hands-on-programming-exercise
-## leetcode-cn探索实现 [[link]](https://leetcode-cn.com)
+## PART1: leetcode-cn探索实现 [[link]](https://leetcode-cn.com)
 
 ## [1. Data structures](https://leetcode-cn.com/explore/learn/)
 ### [1.1 Arrays and strings](https://leetcode-cn.com/explore/learn/card/array-and-string/)
@@ -32,19 +32,24 @@
 * 2019/11/26: <br>
 [200](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/200_num_islands.py)(medium)
 
+<br>
 
 ## 2. Special Topics
 ### [2.1 Machine learning 101](https://leetcode-cn.com/explore/orignial/card/machine-learning-101/)
 - [material](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/special_topic/machine_learning_101/README.md)
 
+<br>
+
 ## 3. [Interview Questions](https://leetcode-cn.com/explore/interview/)
 
-## HOT 100 [[link]](https://leetcode-cn.com/problemset/hot-100/)
+<br><br>
+
+## PART2: HOT 100 [[link]](https://leetcode-cn.com/problemset/hot-100/)
 * 2019/12/23: <br>
 [001](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/001_two_sum.py)(easy), [002](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/002_add_two_numbers.py)(medium), [003](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/003_length_of_longest_substring.py)(medium)
 * 2019/12/24: <br>
 [005](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/005_longest_palindrome.py)(medium), [011](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/011_max_area.py)(medium), [015](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/015_three_sum.py)(medium), [017](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/017_letter_combinations.py)(medium), [019](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/019_remove_nth_from_end.py)(medium)
-- TODO: 最长公共字串，后缀数算法；补充005题(方法一)实现
+- TODO: 最长公共字串，后缀树算法；补充005题(方法一)实现
 * 2019/12/25: <br>
 [020](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/020_is_valid.py)(easy), [021](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/021_merge_two_lists.py)(easy), [022](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/022_generate_parenthesis.py)(medium), [023](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/023_merge_k_lists.py)(hard), [031](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/031_next_permutation.py)(medium), [032](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/032_longest_valid_parenthese.py)(hard)
 * 2019/12/26: <br>
