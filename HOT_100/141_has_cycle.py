@@ -24,9 +24,10 @@ class Solution:
 
         slow = head
         fast = head.next
+
         while slow != fast:
-            if fast.next == None or fast.next.next == None:
+            if fast == None or fast.next == None:
                 return False
-            slow = slow.next
             fast = fast.next.next
+            slow = slow.next
         return True
