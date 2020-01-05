@@ -10,7 +10,8 @@
 [054](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/arrays_and_strings/054_spiral_order.py)(medium), [118](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/arrays_and_strings/118_generate.py)(easy), [498](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/arrays_and_strings/498_find_diagonal_order.py)(medium)
 * 2019/11/17: <br>
 [014](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/arrays_and_strings/014_longest_common_prefix.py)(easy), [028](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/arrays_and_strings/028_str_str.py)(easy), [067](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/arrays_and_strings/067_add_binary.py)(easy)  
-- To Be Supplemented: KMP(超时), Trie实现
+- To Be Supplemented: KMP
+- 最长公共前缀：Trie实现
 * 2019/11/18: <br>
 [027](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/arrays_and_strings/027_remove_element.py)(easy), [167](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/arrays_and_strings/167_two_sum.py)(easy), [344](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/arrays_and_strings/344_reverse_string.py)(easy), [485](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/arrays_and_strings/485_find_max_consecutive_ones.py)(easy), [561](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/arrays_and_strings/561_array_pair_sum_1.py)(easy)
 * 2019/11/19: <br>
@@ -68,3 +69,40 @@
 [114](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/114_flatten.py)(medium), [121](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/121_max_profit.py)(easy), [136](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/136_single_number.py)(easy), [141](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/141_has_cycle.py)(easy)
 * 2020/01/03:<br>
 [124](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/124_max_path_sum.py)(hard), [128](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/128_longest_consecutive.py)(hard), [139](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/139_word_break.py)(medium), [142](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/142_detect_cycle.py)(medium), [146](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/146_lru_cache.py)(medium), [148](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/148_sort_list.py)(medium), [152](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/152_max_product.py)(medium), [160](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/160_get_intersection_node.py)(easy), [169](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/169_majority_element.py)(easy), [198](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/198_rob.py)(easy)
+
+<br><br>
+
+## PART3: 面试归类总结
+* 反转：<br>
+[344](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/344_reverse_string.py)：反转字符串 (easy)<br>
+[541](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/541_reverse_string2.py)：反转字符串II (easy)<br>
+[206](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/206_reverse_list.py)：反转链表 (easy) [迭代+递归实现]<br>
+[092](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/092_reverse_list2.py)：反转链表II (medium)<br>
+[024]()：<br>
+[025]()：
+
+* 栈的使用<br>
+[739](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/739_daily_temp.py)：每日温度 (medium)
+
+* 栈的其他经典问题<br>
+求解算术表达式求值<br>
+[224]()：<br>
+[227]()：<br>
+[772]()：<br>
+[770]()：<br>
+求解直方图里最大矩形面积<br>
+[84]()：<br>
+
+* 双端队列<br>
+[239](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/239_max_sliding_window.py)：滑动窗口的最大值 (hard)
+
+* 树<br>
+[230](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/230_kth_smallest.py)：二叉搜索树中第k小的元素 (medium)
+
+* 优先队列<br>
+[347](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/347_topk_frequent.py)：前k个高频元素 (medium)
+
+* 前缀树 Trie<br>
+[208](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/208_trie.py)：实现前缀树 (medium)<br>
+[211](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/211_word_dictionary.py)：添加与搜索单词-数据结构设计 (medium) TODO<br> 
+[212](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/212_find_words.py)：单词搜索II (hard) TODO
