@@ -159,8 +159,41 @@ def heap_adjust(nums, i, length):
             break
         nums[i] = tmp
 
+# 补充归并排序
+
+
+def merge_sort(nums, lo, hi):
+    if lo < hi:
+        mid = (hi-lo)//2+lo
+        merge_sort(nums, lo, mid)
+        merge_sort(nums, mid+1, hi)
+        merge(nums, lo, mid, hi)
+
+
+def merge(nums, lo, mid, hi):
+    tmp = [0]*(hi-lo+1)
+    a = lo
+    b = mid+1
+    for k in range(len(tmp)):
+        if a > mid:
+            tmp[k] = nums[b]
+            b += 1
+        elif b > hi:
+            tmp[k] = nums[a]
+            a += 1
+        elif nums[a] > nums[b]:
+            tmp[k] = nums[b]
+            b += 1
+            # 逆序数在这里累加
+        else:
+            tmp[k] = nums[a]
+            a += 1
+
+    for i in range(len(tmp)):
+        nums[i+lo] = tmp[i]
+
 
 if __name__ == "__main__":
     nums = [3, 5, -1, 2, 10, 2, 2]
-    heap_sort(nums)
+    merge_sort(nums, 0, len(nums)-1)
     print(nums)
