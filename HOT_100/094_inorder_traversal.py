@@ -37,3 +37,32 @@ class Solution:
             cur = cur.right
 
         return traversal_path
+
+
+# 补充前序遍历
+def pre_order(root):
+    res = []
+    cur = root
+    stack = [cur]
+    while stack:
+        tmp = stack.pop()
+        if tmp:
+            res.append(tmp.val)
+            # 先后后左
+            stack.append(tmp.right)
+            stack.append(tmp.left)
+
+
+# 后序遍历
+def post_order(root):
+    res = []
+    cur = root
+    stack = [cur]
+    while stack:
+        tmp = stack.pop()
+        if tmp:
+            res.append(tmp.val)
+            # 先左后右
+            stack.append(tmp.left)
+            stack.append(tmp.right)
+    return reversed(res)
