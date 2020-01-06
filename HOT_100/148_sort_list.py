@@ -131,8 +131,36 @@ def quick_sort(arr, low, high):
         quick_sort(arr, low, mid-1)
         quick_sort(arr, mid+1, high)
 
+# 补充堆排序
+
+
+def heap_sort(nums):
+    # 构建大顶堆
+    for i in range(len(nums)//2-1, -1, -1):
+        heap_adjust(nums, i, len(nums))
+
+    for i in range(len(nums)-1, 0, -1):
+        # swap
+        nums[i], nums[0] = nums[0], nums[i]
+        heap_adjust(nums, 0, i)
+
+
+def heap_adjust(nums, i, length):
+    tmp = nums[i]
+    child = 2*i+1
+    while child < length:
+        if child+1 < length and nums[child+1] > nums[child]:
+            child += 1
+        if nums[child] > nums[i]:
+            nums[i] = nums[child]
+            i = child
+            child = 2*i+1
+        else:
+            break
+        nums[i] = tmp
+
 
 if __name__ == "__main__":
     nums = [3, 5, -1, 2, 10, 2, 2]
-    quick_sort(nums, 0, len(nums)-1)
+    heap_sort(nums)
     print(nums)
