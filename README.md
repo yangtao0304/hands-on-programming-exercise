@@ -106,3 +106,8 @@
 [208](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/208_trie.py)：实现前缀树 (medium)<br>
 [211](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/211_word_dictionary.py)：添加与搜索单词-数据结构设计 (medium) TODO<br> 
 [212](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/212_find_words.py)：单词搜索II (hard) TODO
+
+* 递归和回溯<br>
+[091](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/091_num_decodings.py)：解码方法 (medium)<br>
+[051](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/051_solve_nqueens.py)：N皇后 (hard)<br>
+[247]()：中心对称数 II (medium) 待补充<br>
