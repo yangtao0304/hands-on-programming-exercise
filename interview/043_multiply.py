@@ -1,4 +1,5 @@
 class Solution:
+    # 普通竖式
     def multiply(self, num1: str, num2: str) -> str:
         def string_add(a, b):
             p1 = len(a)-1
@@ -48,8 +49,36 @@ class Solution:
             res = string_add(res, tmp)
         return res
 
+    # 优化竖式
+    # num1位数为M，num2位数为N，结果的最大位数为M+N
+    # 对应位置为i+j，i+j+1
+    def multiply2(self, num1: str, num2: str) -> str:
+        if num1 == '0' or num2 == '0':
+            return '0'
+
+        len_1 = len(num1)
+        len_2 = len(num2)
+        res = [0 for _ in range(len_1+len_2)]
+
+        for i in reversed(range(len_1)):
+            digit_1 = int(num1[i])
+            for j in reversed(range(len_2)):
+                digit_2 = int(num2[j])
+                tmp = res[i+j+1]+digit_1*digit_2
+                res[i+j+1] = tmp % 10
+                res[i+j] += tmp//10
+
+        # 处理结果
+        start_idx = 0
+        for i in res:
+            if i == 0:
+                start_idx += 1
+            else:
+                break
+        return ''.join([str(i) for i in res[start_idx:]])
+
 
 if __name__ == "__main__":
     s = Solution()
-    res = s.multiply('123', '456')
+    res = s.multiply2('123', '456')
     print(res)
