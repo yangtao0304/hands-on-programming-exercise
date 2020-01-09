@@ -111,3 +111,7 @@
 [091](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/091_num_decodings.py)：解码方法 (medium)<br>
 [051](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/051_solve_nqueens.py)：N皇后 (hard)<br>
 [247]()：中心对称数 II (medium) 待补充<br>
+
+* 大数运算<br>
+[415](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/415_add_strings.py)：字符串相加 (easy)<br>
+[043](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/043_multiply.py)：字符串相乘 (medium)<br>

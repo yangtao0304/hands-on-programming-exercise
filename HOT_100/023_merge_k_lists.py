@@ -7,6 +7,7 @@ class ListNode:
 
 class Solution:
     # 1: 暴力 O(nlogn)
+    # 这里，n为k个链表中所有节点个数和
     def mergeKLists(self, lists: List[ListNode]) -> ListNode:
         nodes = []
         for l in lists:
@@ -22,7 +23,7 @@ class Solution:
     # 2: 逐一比较（使用优先队列优化）
     # 优先级队列可以使用python包的queue.PriorityQueue
     # 实质是使用最小堆heapq来实现的，考虑了线程安全的问题
-    # O(nlogk)
+    # O(nlogk) 空间O(n),因为新建链表保存结果
     def mergeKLists2(self, lists: List[ListNode]) -> ListNode:
         from queue import PriorityQueue
         q = PriorityQueue()
@@ -41,3 +42,30 @@ class Solution:
                 q.put((node.val, index, node))
                 index += 1
         return head.next
+
+    # 分治递归 O(nlogk) 空间O(1)
+    def mergeKLists3(self, lists: List[ListNode]) -> ListNode:
+
+        def split_two(left, right):
+            # 错误性检查
+            if left > right:
+                return
+            # 递归终止
+            if left == right:
+                return lists[left]
+            mid = (right-left)//2+left
+            return merge(split_two(left, mid), split_two(mid+1, right))
+
+        def merge(l1, l2):
+            if not l1:
+                return l2
+            if not l2:
+                return l1
+            if l1.val <= l2.val:
+                l1.next = merge(l1.next, l2)
+                return l1
+            else:
+                l2.next = merge(l1, l2.next)
+                return l2
+
+        return split_two(0, len(lists)-1)

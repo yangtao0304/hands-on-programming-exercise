@@ -174,6 +174,8 @@ def merge(nums, lo, mid, hi):
     tmp = [0]*(hi-lo+1)
     a = lo
     b = mid+1
+    # 逆序数计数
+    # count = 0
     for k in range(len(tmp)):
         if a > mid:
             tmp[k] = nums[b]
@@ -185,6 +187,7 @@ def merge(nums, lo, mid, hi):
             tmp[k] = nums[b]
             b += 1
             # 逆序数在这里累加
+            # count += (mid - a + 1)
         else:
             tmp[k] = nums[a]
             a += 1
