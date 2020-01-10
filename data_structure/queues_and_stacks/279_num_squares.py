@@ -9,7 +9,8 @@ class Solution(object):
         :rtype: int
         """
         queue = deque([(n, 0)])
-        visited = set([n])
+        # 引入visited, 去除更深的情况
+        visited = set()
 
         while queue:
             num, step = queue.popleft()
@@ -37,9 +38,14 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        pass
+        dp = [i for i in range(n+1)]
+        for i in range(2, n+1):
+            for j in range(1, int(i**(0.5))+1):
+                dp[i] = min(dp[i], dp[i-j*j]+1)
+        print(dp)
+        return dp[-1]
 
 
 if __name__ == "__main__":
     s = Solution()
-    print(s.num_squares(3))
+    s.num_squares_2(12)

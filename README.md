@@ -25,13 +25,22 @@
 * 2019/11/23: <br>
 [200](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/200_num_islands.py)(medium), [286](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/286_walls_and_gates.py)(medium)
 * 2019/11/25: <br>
-[279](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/279_num_squares.py)(medium), [752](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/752_open_lock.py)(medium)
-- To Be Supplemented: 279 动态规划解法
+[279](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/279_num_squares.py)：完全平方数 (medium)<br>
+[752](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/752_open_lock.py)：打开转盘锁 (medium)<br>
 * 2019/11/25: <br>
 [20](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/020_is_valid.py)(easy), [150](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/150_eval_RPN.py)(medium), [155](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/155_min_stack.py)(easy), [739](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/739_daily_temperatures.py)(medium)
 - TODO: 739 official解法, 将中序表达式转换为逆波兰表达式
 * 2019/11/26: <br>
-[200](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/200_num_islands.py)(medium)
+[200](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/200_num_islands.py)：岛屿数量 (medium)<br>
+
+* 2020/01/10: <br>
+[133](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/133_clone_graph.py)：克隆图 (medium)<br>
+[494](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/494_find_target_sumways.py)：目标和 (medium)<br>
+[394](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/394_decode_string.py)：字符串解码 (medium)<br>
+[733](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/733_flood_fill.py)：图像渲染 (easy)<br>
+[542](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/542_update_matrix.py)：01矩阵 (medium)<br>
+[841](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/data_structure/queues_and_stacks/841_can_visitallrooms.py)：钥匙和房间 (medium)<br>
+
 
 <br>
 
@@ -115,3 +124,6 @@
 * 大数运算<br>
 [415](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/415_add_strings.py)：字符串相加 (easy)<br>
 [043](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/043_multiply.py)：字符串相乘 (medium)<br>
+
+* 动态规划<br>
+[322]()：零钱兑换 (medium)<br>

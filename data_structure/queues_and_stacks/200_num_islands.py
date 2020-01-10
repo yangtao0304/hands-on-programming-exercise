@@ -19,7 +19,7 @@ class Solution(object):
         for i in range(len(grid)):
             for j in range(len(grid[0])):
                 # 发现新大陆
-                if grid[i][j] == '1':
+                if (i, j) not in visited and grid[i][j] == '1':
                     queue.append((i, j))
                     visited.add((i, j))
                     num += 1

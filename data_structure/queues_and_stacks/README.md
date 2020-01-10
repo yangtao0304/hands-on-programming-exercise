@@ -328,7 +328,7 @@ int main() {
 ## 5.1 栈和 DFS
 与 BFS 类似，***深度优先搜索(DFS)*** 也可用于查找从根结点到目标结点的路径
 
-DFS 中找到的第一条路径并不总是最短的路径
+DFS 中找到的第一条路径并不总是最短的路径，用来检查连通性
 
 我们首先将根结点推入到栈中；然后我们尝试第一个邻居 B 并将结点 B 推入到栈中；等等等等。当我们到达最深的结点 E 时，我们需要回溯。当我们回溯时，我们将从栈中弹出最深的结点，这实际上是推入到栈中的最后一个结点
 
@@ -358,3 +358,30 @@ DFS 中找到的第一条路径并不总是最短的路径
 
     ***提示：再添加一个参数来指示你已经找到的最短路径***
 
+## 5.3 DFS 模版II
+递归解决方案的优点是它更容易实现。 但是，存在一个很大的缺点：如果递归的深度太高，你将遭受堆栈溢出。 在这种情况下，您可能会希望使用 BFS，或使用显式栈实现 DFS。
+
+这里我们提供了一个使用显式栈的模板：
+```
+/*
+ * Return true if there is a path from cur to target.
+ */
+boolean DFS(int root, int target) {
+    Set<Node> visited;
+    Stack<Node> s;
+    add root to s;
+    while (s is not empty) {
+        Node cur = the top element in s;
+        return true if cur is target;
+        for (Node next : the neighbors of cur) {
+            if (next is not in visited) {
+                add next to s;
+                add next to visited;
+            }
+        }
+        remove cur from s;
+    }
+    return false;
+}
+```
+该逻辑与递归解决方案完全相同。 但我们使用 while 循环和栈来模拟递归期间的系统调用栈
