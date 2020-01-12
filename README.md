@@ -58,8 +58,7 @@
 * 2019/12/23: <br>
 [001](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/001_two_sum.py)(easy), [002](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/002_add_two_numbers.py)(medium), [003](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/003_length_of_longest_substring.py)(medium)
 * 2019/12/24: <br>
-[005](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/005_longest_palindrome.py)(medium), [011](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/011_max_area.py)(medium), [015](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/015_three_sum.py)(medium), [017](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/017_letter_combinations.py)(medium), [019](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/019_remove_nth_from_end.py)(medium)
-- TODO: 最长公共字串，后缀树算法；补充005题(方法一)实现
+[005](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/005_longest_palindrome.py)(medium), [011](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/011_max_area.py)(medium), [015](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/015_three_sum.py)(medium), [017](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/017_letter_combinations.py)(medium), [019](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/019_remove_nth_from_end.py)(medium)<br>
 * 2019/12/25: <br>
 [020](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/020_is_valid.py)(easy), [021](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/021_merge_two_lists.py)(easy), [022](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/022_generate_parenthesis.py)(medium), [023](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/023_merge_k_lists.py)(hard), [031](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/031_next_permutation.py)(medium), [032](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/032_longest_valid_parenthese.py)(hard)
 * 2019/12/26: <br>
@@ -132,4 +131,10 @@
 [063](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/063_uniquepaths_obstacles.py)：不同路径II (medium)<br>
 [516](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/516_longest_palindrome_subseq.py)：最长回文子序列（不同于**最长回文字串**）(medium)<br>
 
-* 01背包系列<br>
+* 背包系列问题<br>
+
+
+* 贪婪 Greedy<br>
+（在每一步选择中都采取在当前状态下最好或最优的选择，从而希望导致结果是最好或最优的算法。
+它不从整体角度考虑，仅仅对局部的最优解感兴趣，因此，只有当那些局部最优策略能产生全局最优策略的时候，可以使用贪婪算法）<br>
+[253](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/253_min_meeting_rooms.py)：会议室II<br>
