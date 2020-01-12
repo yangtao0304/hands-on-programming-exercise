@@ -127,3 +127,9 @@
 
 * 动态规划<br>
 [322]()：零钱兑换 (medium)<br>
+[300](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/0300_length_of_lis.py)：最长上升子序列 (medium)<br>
+[746](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/746_mincost_climbingstairs.py)：使用最小花费爬楼梯 (easy)<br>
+[063](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/063_uniquepaths_obstacles.py)：不同路径II (medium)<br>
+[516](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/516_longest_palindrome_subseq.py)：最长回文子序列（不同于**最长回文字串**）(medium)<br>
+
+* 01背包系列<br>
