@@ -93,12 +93,12 @@
 [739](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/739_daily_temp.py)：每日温度 (medium)
 
 * 栈的其他经典问题<br>
-求解算术表达式求值<br>
+    * 求解算术表达式求值<br>
 [224]()：<br>
 [227]()：<br>
 [772]()：<br>
 [770]()：<br>
-求解直方图里最大矩形面积<br>
+    * 求解直方图里最大矩形面积<br>
 [84]()：<br>
 
 * 双端队列<br>
@@ -135,6 +135,10 @@
 
 
 * 贪婪 Greedy<br>
-（在每一步选择中都采取在当前状态下最好或最优的选择，从而希望导致结果是最好或最优的算法。
-它不从整体角度考虑，仅仅对局部的最优解感兴趣，因此，只有当那些局部最优策略能产生全局最优策略的时候，可以使用贪婪算法）<br>
 [253](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/253_min_meeting_rooms.py)：会议室II<br>
+
+* 高频考题<br>
+[215](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/215_find_kth_largest.py)：数组中的第k个最大元素 (medium)<br>
+[435](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/435_erase_overlap_intervals.py)：无重叠区间 (medium)<br>
+[452](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/452_find_min_arrow_shots.py)：用最少数量的箭吹爆气球 (medium)<br>
+[010](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/010_is_match.py)：正则表达式匹配 (hard)<br>
