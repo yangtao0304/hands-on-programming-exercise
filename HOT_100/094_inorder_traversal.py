@@ -42,14 +42,18 @@ class Solution:
 # 补充前序遍历
 def pre_order(root):
     res = []
+    if not root:
+        return res
+
     cur = root
     stack = [cur]
     while stack:
         tmp = stack.pop()
-        if tmp:
-            res.append(tmp.val)
-            # 先后后左
+        res.append(tmp.val)
+        # 先右后左
+        if tmp.right:
             stack.append(tmp.right)
+        if tmp.left:
             stack.append(tmp.left)
 
 
@@ -209,8 +213,8 @@ class Codec:
             data.pop(0)
             root.left = recursive(data)
             root.right = recursive(data)
-
             return root
+            
         data = data.split(',')
         return recursive(data)
 

@@ -3,8 +3,8 @@
 # 若word1[i]==word2[j]: dp[i][j]=dp[i-1][j-1]
 # 若word1[i]！=word2[j]: 考虑三种情况
 # 1.替换： dp[i-1][j-1]
-# 2.插入：dp[i-1][j]
-# 3.移除：dp[i][j-1]
+# 2.删除：dp[i-1][j]
+# 3.插入：dp[i][j-1]
 
 
 class Solution:

@@ -35,7 +35,7 @@ class Solution:
         res = []
 
         def helper(i, tmp):
-            res.append(tmp)
+            res.append(tmp[:])
             for j in range(i, n):
                 helper(j+1, tmp+[nums[j]])
 

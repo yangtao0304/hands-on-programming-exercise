@@ -146,18 +146,16 @@ def heap_sort(nums):
 
 
 def heap_adjust(nums, i, length):
-    tmp = nums[i]
     child = 2*i+1
     while child < length:
         if child+1 < length and nums[child+1] > nums[child]:
             child += 1
         if nums[child] > nums[i]:
-            nums[i] = nums[child]
+            nums[i], nums[child] = nums[child], nums[i]
             i = child
             child = 2*i+1
         else:
             break
-        nums[i] = tmp
 
 # 补充归并排序
 

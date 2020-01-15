@@ -21,6 +21,7 @@ class Solution:
         for idx, num in enumerate(nums[k:]):
             while q and num >= nums[q[-1]]:
                 q.pop()
+            # +k 容易忽略掉
             q.append(idx+k)
 
             if q[0] < l:

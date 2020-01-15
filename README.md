@@ -105,7 +105,8 @@
 [239](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/239_max_sliding_window.py)：滑动窗口的最大值 (hard)
 
 * 树<br>
-[230](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/230_kth_smallest.py)：二叉搜索树中第k小的元素 (medium)
+[230](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/230_kth_smallest.py)：二叉搜索树中第k小的元素 (medium)<br>
+[572](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/572_is_subtree.py)：另一个树的子树 (easy)
 
 * 优先队列<br>
 [347](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/347_topk_frequent.py)：前k个高频元素 (medium)
@@ -135,7 +136,11 @@
 
 
 * 贪婪 Greedy<br>
-[253](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/253_min_meeting_rooms.py)：会议室II<br>
+[253](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/253_min_meeting_rooms.py)：会议室II (medium)<br>
+
+* 搜索二维矩阵<br>
+[074](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/074_search_matrix.py)：搜索二维矩阵 (medium)<br>
+[240](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/240_search_matrix2.py)：搜索二维矩阵II (medium)<br>
 
 * 高频考题<br>
 [215](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/215_find_kth_largest.py)：数组中的第k个最大元素 (medium)<br>

@@ -6,11 +6,11 @@ class Solution:
         while p1 >= 0 or p2 >= 0:
             n1 = int(num1[p1]) if p1 >= 0 else 0
             n2 = int(num2[p2]) if p2 >= 0 else 0
-            tmp = n1 + n2+carry
+            tmp = n1 + n2 + carry
             carry = tmp//10
-            res = str(tmp % 10)+res
+            res = str(tmp % 10) + res
             p1 -= 1
             p2 -= 1
         if carry:
-            res = '1'+res
+            res = '1' + res
         return res

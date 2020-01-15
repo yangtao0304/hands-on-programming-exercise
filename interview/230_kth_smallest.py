@@ -42,3 +42,9 @@ class Solution:
             if i == k:
                 return cur.val
             cur = cur.right
+
+        gen = inorder(root)
+        for i in range(k):
+            res = next(gen)
+
+        return res
