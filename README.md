@@ -78,6 +78,12 @@
 * 2020/01/03:<br>
 [124](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/124_max_path_sum.py)(hard), [128](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/128_longest_consecutive.py)(hard), [139](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/139_word_break.py)(medium), [142](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/142_detect_cycle.py)(medium), [146](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/146_lru_cache.py)(medium), [148](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/148_sort_list.py)(medium), [152](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/152_max_product.py)(medium), [160](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/160_get_intersection_node.py)(easy), [169](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/169_majority_element.py)(easy), [198](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/198_rob.py)(easy)
 
+* 2020/01/17:<br>
+[647](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/647_count_substrings.py)：回文子串 (medium)<br>
+[621](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/621_least_interval.py)：任务调度器 (medium)<br>
+[617](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/617_merge_trees.py)：合并二叉树 (easy)<br>
+[581](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/581_find_unsorted_subarray.py)：最短无序连续子数组 (easy)<br>
+
 <br><br>
 
 ## PART3: 面试归类总结
