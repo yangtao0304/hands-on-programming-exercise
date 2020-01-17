@@ -132,9 +132,6 @@
 [063](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/063_uniquepaths_obstacles.py)：不同路径II (medium)<br>
 [516](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/516_longest_palindrome_subseq.py)：最长回文子序列（不同于**最长回文字串**）(medium)<br>
 
-* 背包系列问题<br>
-
-
 * 贪婪 Greedy<br>
 [253](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/253_min_meeting_rooms.py)：会议室II (medium)<br>
 
@@ -147,3 +144,18 @@
 [435](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/435_erase_overlap_intervals.py)：无重叠区间 (medium)<br>
 [452](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/452_find_min_arrow_shots.py)：用最少数量的箭吹爆气球 (medium)<br>
 [010](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/010_is_match.py)：正则表达式匹配 (hard)<br>
+
+* 二分变形<br>
+[153](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/153_find_min.py)：寻找旋转排序数组中的最小值 (medium)<br>
+[704](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/704_search.py)：二分查找 (easy)<br>
+
+* 背包系列<br>
+
+* 买卖股票系列<br>
+[121](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/121_max_profit.py)：买卖股票的最佳时机 (easy)<br>
+[122](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/122_max_profit2.py)：买卖股票的最佳时机II (easy)<br>
+[123](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/123_max_profit3.py)：买卖股票的最佳时机III (hard)<br>
+
+* 图系列<br>
+[133](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/133_clone_graph.py)：克隆图 (medium)<br>
+[785](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/785_is_bipartite.py)：判断二分图 (medium)<br>
