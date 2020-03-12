@@ -19,7 +19,6 @@ class Solution(object):
                 if 0 <= nr < R and 0 <= nc < C:
                     yield nr, nc
 
-        d = 0
         while queue:
             r, c, d = queue.popleft()
             for nr, nc in neighbor(r, c):

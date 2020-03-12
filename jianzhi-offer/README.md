@@ -103,3 +103,5 @@
 [61. 扑克牌中的顺子](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/jianzhi-offer/61.py)
 
 [68-1. 二叉搜索树的最近公共祖先](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/jianzhi-offer/68-1.py)
+
+[68-2. 二叉树的最近公共祖先](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/jianzhi-offer/68-2.py)
