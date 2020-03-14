@@ -9,16 +9,11 @@
 class Solution(object):
     # dp[i] 表示到索引为 i 位置再选择向上爬一共需要的体力开销
     # dp[i] = min(dp[i-1],dp[i-2])+cost[i]
-    def minCostClimbingStairs(self, cost):
-        """
-        :type cost: List[int]
-        :rtype: int
-        """
-        if len(cost) == 2:
-            return min(cost)
-
-        dp = [0]*len(cost)
+    def minCostClimbingStairs(self, cost: List[int]) -> int:
+        dp = [0] * len(cost)
         dp[0], dp[1] = cost[0], cost[1]
+
         for i in range(2, len(cost)):
             dp[i] = min(dp[i-1], dp[i-2])+cost[i]
+
         return min(dp[-1], dp[-2])

@@ -23,3 +23,5 @@
 [1071. 字符串的最大公因子](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/one-problem-per-day/1071.py)
 
 [169. 多数元素](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/one-problem-per-day/169.py)
+
+[300. 最长上升子序列](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/300.py)

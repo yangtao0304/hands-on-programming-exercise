@@ -1,6 +1,3 @@
-# 最长上升子序列
-
-
 class Solution(object):
     # dp
     def lengthOfLIS(self, nums):
@@ -16,6 +13,7 @@ class Solution(object):
                 if nums[j] < nums[i]:
                     dp[i] = max(dp[j]+1, dp[i])
         print(dp)
+        # 返回值为取max
         return max(dp)
 
 
