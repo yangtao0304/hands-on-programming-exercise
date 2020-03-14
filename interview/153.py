@@ -15,7 +15,6 @@ class Solution(object):
 
         while left <= right:
             mid = (right-left)//2+left
-            # 顺序最好不要反过来
             if nums[mid] > nums[mid+1]:
                 return nums[mid+1]
             elif nums[mid] < nums[mid-1]:

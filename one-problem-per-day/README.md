@@ -6,7 +6,7 @@
 
 [994. 腐烂的橘子](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/one-problem-per-day/994.py)
 
-[1103. 分糖果II](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/one-problem-per-day/1103.py)
+[1103. 分糖果 II](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/one-problem-per-day/1103.py)
 
 [57-2. 和为s的连续正数序列](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/one-problem-per-day/57-2.py)
 
@@ -21,3 +21,5 @@
 [1013. 将数组分成和相等的三个部分](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/one-problem-per-day/1013.py)
 
 [1071. 字符串的最大公因子](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/one-problem-per-day/1071.py)
+
+[169. 多数元素](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/one-problem-per-day/169.py)
