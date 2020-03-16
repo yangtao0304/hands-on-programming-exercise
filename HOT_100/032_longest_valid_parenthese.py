@@ -19,7 +19,7 @@ class Solution:
         size = len(s)
         for i in range(size-1):
             for j in range(i+2, size+1, 2):
-                if is_valid(s[i:j]) and j-i > max_len:
+                if j-i > max_len and is_valid(s[i:j]):
                     max_len = j-i
 
         return max_len

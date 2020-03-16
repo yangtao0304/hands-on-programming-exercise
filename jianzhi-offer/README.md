@@ -66,6 +66,8 @@
 
 [40. 数组中出现次数超过一半的数字](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/jianzhi-offer/40.py)
 
+[41. 数据流中的中位数](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/jianzhi-offer/41.py)
+
 [42. 连续子数组的最大和](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/jianzhi-offer/42.py)
 
 [45. 把数组排成最小的数](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/jianzhi-offer/45.py)
@@ -75,6 +77,8 @@
 [47. 礼物的最大价值](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/jianzhi-offer/47.py)
 
 [48. 最长不含重复字符的子字符串](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/jianzhi-offer/48.py)
+
+[49. 丑数](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/jianzhi-offer/49.py)
 
 [50. 第一个只出现一次的字符](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/jianzhi-offer/50.py)
 
@@ -101,6 +105,8 @@
 [59-1. 滑动窗口的最大值](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/jianzhi-offer/59-1.py)
 
 [61. 扑克牌中的顺子](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/jianzhi-offer/61.py)
+
+[64. 求1+2+…+n](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/jianzhi-offer/64.py)
 
 [68-1. 二叉搜索树的最近公共祖先](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/jianzhi-offer/68-1.py)
 

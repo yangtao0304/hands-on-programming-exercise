@@ -10,9 +10,6 @@ class Solution:
     '''
 
     def numTrees(self, n: int) -> int:
-        if n == 0:
-            return 1
-
         dp = [0 for _ in range(n+1)]
         dp[0] = 1
         dp[1] = 1

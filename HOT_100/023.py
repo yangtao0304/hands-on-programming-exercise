@@ -21,6 +21,7 @@ class Solution:
         return head.next
 
     # 2: 逐一比较（使用优先队列优化）
+    # k路归并
     # 优先级队列可以使用python包的queue.PriorityQueue
     # 实质是使用最小堆heapq来实现的，考虑了线程安全的问题
     # O(nlogk) 空间O(n),因为新建链表保存结果
@@ -47,9 +48,6 @@ class Solution:
     def mergeKLists3(self, lists: List[ListNode]) -> ListNode:
 
         def split_two(left, right):
-            # 错误性检查
-            if left > right:
-                return
             # 递归终止
             if left == right:
                 return lists[left]

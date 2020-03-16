@@ -60,7 +60,7 @@ class Solution:
     def isValidBST3(self, root: TreeNode) -> bool:
         cur = root
         stack = []
-        inorder = float('-inf')
+        pre_val = float('-inf')
 
         while cur or stack:
             while cur:
@@ -68,9 +68,9 @@ class Solution:
                 cur = cur.left
             cur = stack.pop()
             val = cur.val
-            if val <= inorder:
+            if val <= pre_val:
                 return False
-            inorder = val
+            pre_val = val
             cur = cur.right
 
         return True

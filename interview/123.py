@@ -10,6 +10,5 @@ class Solution:
                     dp[i][j][1] = float('-inf')
                 else:
                     dp[i][j][0] = max(dp[i-1][j][0], dp[i-1][j][1]+prices[i-1])
-                    dp[i][j][1] = max(dp[i-1][j][1], dp[i-1]
-                                      [j-1][0]-prices[i-1])
+                    dp[i][j][1] = max(dp[i-1][j][1], dp[i-1][j-1][0]-prices[i-1])
         return dp[-1][-1][0]

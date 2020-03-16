@@ -32,7 +32,7 @@ class Solution:
                 heap_adjust(heap, 0)
         return heap
 
-    # quick sort
+    # quick selection
     def getLeastNumbers2(self, arr: List[int], k: int) -> List[int]:
         def partition(arr, left, right):
             pivot = arr[right]

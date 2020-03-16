@@ -14,6 +14,13 @@
 [211](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/211_word_dictionary.py)：添加与搜索单词-数据结构设计 (medium) TODO<br> 
 [212](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/212_find_words.py)：单词搜索II (hard) TODO
 
+* stack
+[224]()：<br>
+[227]()：<br>
+[772]()：<br>
+[770]()：<br>
+    * 求解直方图里最大矩形面积<br>
+[84]()：<br>
 
 * 贪婪 Greedy<br>
 [253](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/253_min_meeting_rooms.py)：会议室II (medium)<br>
@@ -28,9 +35,23 @@
 [133](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/133_clone_graph.py)：克隆图 (medium)<br>
 [785](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/785_is_bipartite.py)：判断二分图 (medium)<br>
 
+## 快慢指针
+
+[202. 快乐数](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/202.py)
+
+## 回文
+
+[131. 分割回文串](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/131.py)
+
+[132. 分割回文串 II](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/132.py)
+
+[680. 验证回文字符串 II](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/680.py)
+
+[1312. 让字符串成为回文串的最少插入次数](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/1312.py)
+
 ## 高频考题
 
-[215](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/215_find_kth_largest.py)：数组中的第k个最大元素 (medium)<br>
+[215. 数组中的第k个最大元素](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/215.py)
 
 [435](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/435_erase_overlap_intervals.py)：无重叠区间 (medium)<br>
 
@@ -38,7 +59,11 @@
 
 [010](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/010_is_match.py)：正则表达式匹配 (hard)<br>
 
+[200. 岛屿数量](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/200.py)
+
 [239. 滑动窗口的最大值](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/239.py)
+
+[695. 岛屿的最大面积](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/695.py)
 
 ## 优先队列
 
@@ -54,14 +79,11 @@
 
 ## 栈
 
-[739. 每日温度](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/739.py)
+[496. 下一个更大元素 I](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/496.py)
 
-[224]()：<br>
-[227]()：<br>
-[772]()：<br>
-[770]()：<br>
-    * 求解直方图里最大矩形面积<br>
-[84]()：<br>
+[503. 下一个更大元素 II](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/503.py)
+
+[739. 每日温度](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/739.py)
 
 ## 动态规划
 
