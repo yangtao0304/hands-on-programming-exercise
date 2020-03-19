@@ -41,3 +41,32 @@ class Solution:
             # 剪枝
             visited[x][y] = False
         return False
+
+
+    # 复习 重新撸了一遍～
+    def exist2(self, board: List[List[str]], word: str) -> bool:
+        R, C = len(board), len(board[0])
+        visited = [[False]*C for _ in range(R)]
+
+        def neighbors(x, y):
+            for dx, dy in ((-1, 0), (1, 0), (0, -1), (0, 1)):
+                nx, ny = x+dx, y+dy
+                if 0 <= nx < R and 0 <= ny < C:
+                    yield nx, ny
+
+        def find(i, x, y, visited):
+            if i == len(word)-1:
+                return word[i] == board[x][y]
+            if board[x][y] == word[i]:
+                visited[x][y] = True
+                for nx, ny in neighbors(x, y):
+                    if not visited[nx][ny] and find(i+1, nx, ny, visited):
+                        return True
+                visited[x][y] = False
+            return False
+
+        for i in range(R):
+            for j in range(C):
+                if find(0, i, j, visited):
+                    return True
+        return False

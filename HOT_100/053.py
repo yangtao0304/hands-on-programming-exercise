@@ -9,7 +9,7 @@ class Solution:
     # 每一步都选择最佳方案，到最后就是全局最优的方案
     def maxSubArray(self, nums):
         if not nums:
-            return 0
+            return
         max_sum = tmp = nums[0]
         for num in nums[1:]:
             tmp = max(num, tmp + num)

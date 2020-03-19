@@ -43,3 +43,7 @@ if __name__ == "__main__":
     nums = [1, 2, 3]
     s.nextPermutation(nums)
     print(nums)
+
+    nums = [3, 2, 1]
+    s.nextPermutation(nums)
+    print(nums)

@@ -16,21 +16,21 @@ def min_meeting_rooms(intervals):
     # 优先队列，按照会议的结束时间排序
     from queue import PriorityQueue
     q = PriorityQueue()
-    q.put(intervals[0][::-1])
+    q.put(intervals[0][1])
 
-    for i in range(2, len(intervals)):
+    for i in range(1, len(intervals)):
         # 优先队列会保证，在顶部的元素是结束时间最早的
-        interval = q.get()
+        early_end = q.get()
         # 最近的会议结束时间和当前会议要开始的时间进行比较
-        if intervals[i][0] >= interval[0]:
-            interval[0] = intervals[i][0]
+        if intervals[i][0] >= early_end:
+            early_end = intervals[i][0]
         else:
-            q.put(intervals[i][::-1])
-        q.put(interval)
+            q.put(intervals[i][1])
+        q.put(early_end)
     return q.qsize()
 
 
 if __name__ == "__main__":
-    intervals = [[7, 10], [2, 4]]
+    intervals = [[7, 10], [2, 4], [1, 3]]
     # check if the result is 1
     print(min_meeting_rooms(intervals))

@@ -45,8 +45,7 @@ def pre_order(root):
     if not root:
         return res
 
-    cur = root
-    stack = [cur]
+    stack = [root]
     while stack:
         tmp = stack.pop()
         res.append(tmp.val)
@@ -60,8 +59,7 @@ def pre_order(root):
 # 后序遍历
 def post_order(root):
     res = []
-    cur = root
-    stack = [cur]
+    stack = [root]
     while stack:
         tmp = stack.pop()
         if tmp:
@@ -209,7 +207,7 @@ class Codec:
             if data[0] == 'null':
                 data.pop(0)
                 return None
-            root = TreeNode(data[0])
+            root = TreeNode(int(data[0]))
             data.pop(0)
             root.left = recursive(data)
             root.right = recursive(data)

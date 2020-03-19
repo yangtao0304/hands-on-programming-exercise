@@ -54,18 +54,18 @@ class Solution:
             else:
                 left += 1
 
-    # 同上，更好理解的三路快排
+    # 同上，更好理解的 [三路快排]
     def sortColors3(self, nums: List[int]) -> None:
         zero = -1
         two = len(nums)
         i = 0
         while i < two:
             if nums[i] == 0:
-                nums[i], nums[zero+1] = nums[zero+1], nums[i]
                 zero += 1
+                nums[i], nums[zero] = nums[zero], nums[i]
                 i += 1
             elif nums[i] == 2:
-                nums[i], nums[two-1] = nums[two-1], nums[i]
                 two -= 1
+                nums[i], nums[two] = nums[two], nums[i]
             else:
                 i += 1

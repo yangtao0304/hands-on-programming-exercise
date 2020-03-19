@@ -6,7 +6,7 @@
 
 
 class Solution:
-    # O(m+n) O(m)/O(n)
+    # O(m+n) min(O(m),O(n))
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
         cur_a = headA
         s_a = set()

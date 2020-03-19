@@ -66,6 +66,7 @@ class Solution:
         left[0] = height[0]
         for i in range(1, len(height)-1):
             left[i] = max(height[i], left[i-1])
+        print(left)
 
         # max_right = height[-1]
         # for i in reversed(range(1, len(height)-1)):
@@ -76,6 +77,7 @@ class Solution:
         right[-1] = height[-1]
         for i in reversed(range(1, len(height)-1)):
             right[i] = max(height[i], right[i+1])
+        print(right)
 
         ans = 0
         for i in range(1, len(height)-1):
@@ -123,4 +125,4 @@ class Solution:
 
 if __name__ == "__main__":
     s = Solution()
-    print(s.trap5([0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]))
+    print(s.trap3([3, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]))

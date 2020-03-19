@@ -92,8 +92,9 @@ class Solution:
 
     def permute4(self, nums: List[int]) -> List[List[int]]:
         def backtrack(first=0):
-            if first == n:
+            if first == n-1:
                 output.append(nums[:])
+                return
             for i in range(first, n):
                 # swap i, first
                 nums[first], nums[i] = nums[i], nums[first]
@@ -109,4 +110,4 @@ class Solution:
 
 if __name__ == "__main__":
     s = Solution()
-    print(s.permute3([1, 2, 3]))
+    print(s.permute4([1, 2, 3, 4]))

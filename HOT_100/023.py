@@ -9,15 +9,15 @@ class Solution:
     # 1: 暴力 O(nlogn)
     # 这里，n为k个链表中所有节点个数和
     def mergeKLists(self, lists: List[ListNode]) -> ListNode:
-        nodes = []
+        vals = []
         for l in lists:
             while l:
-                nodes.append(l.val)
+                vals.append(l.val)
                 l = l.next
-        head = point = ListNode(0)
-        for x in sorted(nodes):
-            point.next = ListNode(x)
-            point = point.next
+        head = cur = ListNode(0)
+        for x in sorted(vals):
+            cur.next = ListNode(x)
+            cur = cur.next
         return head.next
 
     # 2: 逐一比较（使用优先队列优化）
@@ -33,11 +33,11 @@ class Solution:
             if l:
                 q.put((l.val, index, l))
                 index += 1
-        head = point = ListNode(0)
+        head = cur = ListNode(0)
         while not q.empty():
             val, _, node = q.get()
-            point.next = ListNode(val)
-            point = point.next
+            cur.next = ListNode(val)
+            cur = cur.next
             node = node.next
             if node:
                 q.put((node.val, index, node))

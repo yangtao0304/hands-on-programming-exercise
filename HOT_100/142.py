@@ -31,7 +31,7 @@ class Solution:
         # while退出时候的slow并不是环形链表的入口
         while slow != fast:
             # 判断是否无环，无环直接返回
-            if fast.next == None or fast.next.next == None:
+            if fast == None or fast.next == None:
                 return None
             slow = slow.next
             fast = fast.next.next

@@ -30,10 +30,10 @@ class Solution:
         dummy = ListNode(None)
         dummy.next = head
         length = 0
-        first = head
-        while first:
-            first = first.next
+        cur = head
+        while cur:
             length += 1
+            cur = cur.next
         length -= n
         first = dummy
         for i in range(length):

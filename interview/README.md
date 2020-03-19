@@ -22,8 +22,6 @@
     * 求解直方图里最大矩形面积<br>
 [84]()：<br>
 
-* 贪婪 Greedy<br>
-[253](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/253_min_meeting_rooms.py)：会议室II (medium)<br>
 
 * 搜索二维矩阵<br>
 [074](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/074_search_matrix.py)：搜索二维矩阵 (medium)<br>
@@ -34,6 +32,16 @@
 * 图系列<br>
 [133](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/133_clone_graph.py)：克隆图 (medium)<br>
 [785](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/785_is_bipartite.py)：判断二分图 (medium)<br>
+
+## 贪心
+
+[252. 会议室](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/252.py)
+
+[253. 会议室II](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/253.py)
+
+[435. 无重叠区间](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/435.py)
+
+[452. 用最少的箭头射爆气球](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/452.py)
 
 ## 快慢指针
 
@@ -157,7 +165,7 @@
 
 [031. 下一个排列](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/031.py)
 
-[039. 组合总和](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/039.py)
+[039. 组合总和](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/HOT_100/039.py)
 
 [040. 组合总和 II](https://github.com/yangtao0304/hands-on-programming-exercise/blob/master/interview/040.py)
 

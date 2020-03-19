@@ -19,7 +19,7 @@ class Solution:
         def generate(A, n):
             if n == 0:
                 if valid(A):
-                    ans.append(''.join(A))
+                    ans.append(A)
             else:
                 for i in ['(', ')']:
                     generate(A+i, n-1)
@@ -53,7 +53,7 @@ class Solution:
                 return
             if left < n:
                 backtrack(S+'(', left+1, right)
-            if right < left:
+            if left > right:
                 backtrack(S+')', left, right+1)
 
         backtrack('', 0, 0)
